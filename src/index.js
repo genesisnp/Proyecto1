@@ -17,7 +17,3 @@ procesar.addEventListener('click', function(){
       encode();  
     }
 });   
-var mensaje = "hola";
-for(var i = 0; i < mensaje.length; i++){
-    console.log(i);
-}
