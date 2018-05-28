@@ -27,10 +27,6 @@ procesar.addEventListener('click', function(){
     }else if (accion == 1){
       encode(mensaje, offset);  
     }
-<<<<<<< HEAD
 });  
 
  
-=======
-});   
->>>>>>> 583a9b6bbed5eddf275899ce193685fcd0139595
