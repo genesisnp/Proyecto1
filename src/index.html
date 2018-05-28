@@ -21,23 +21,13 @@
 			<option value="2">Descifra tu mensaje</option>
 		</select>
 		<label>Clave</label>
-		<select id="offset">
-			<option value="0">...</option>
-			<option value="1">1</option>
-			<option value="2">2</option>
-			<option value="3">3</option>
-			<option value="4">4</option>
-			<option value="5">5</option>
-			<option value="6">6</option>
-			<option value="7">7</option>
-			<option value="8">8</option>
-			<option value="9">9</option>
-			<option value="10">10</option>
-		</select>
+		<input id="offset" type="number" name="quantity" min="1" max="">
 		<button type="button" id="procesar">Procesar</button>
 		<br>
 		<br>
 		<textarea id="salida" name="" rows="7" cols="60"></textarea>
+		<br>
+		<button type="button" id="nuevamente">Escribir Nuevamente</button>
 	</div>
 	<script src="cipher.js"></script>
 	<script src="index.js"></script>
