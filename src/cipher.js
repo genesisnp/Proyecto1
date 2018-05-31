@@ -1,10 +1,9 @@
-
 window.cipher = {
   encode :(mensaje, offset) => {
     var mensajeCifrado = '';
-    for (var i = 0; i < mensaje.length; i++){
+    for(var i = 0; i < mensaje.length; i++){
         var x = mensaje.charCodeAt(i);
-        if(x >= 65 && x <= 90 ){
+        if(x >= 65 && x <= 90){
             var letraCifrada = (x - 65 + parseInt(offset)) % 26 + 65;
             mensajeCifrado += String.fromCharCode(letraCifrada);
         }else if(x >=97 && x <= 122){
@@ -13,7 +12,7 @@ window.cipher = {
         }else if(x >= 48 && x <=57){
             letraCifrada = (x - 48 + parseInt(offset)) % 26 + 48;
             mensajeCifrado += String.fromCharCode(letraCifrada);
-        }else {
+        }else{
                 mensajeCifrado += String.fromCharCode(x);
         }
     }
@@ -22,9 +21,9 @@ window.cipher = {
     ,
   decode :(mensaje, offset)=>{
     var mensajeDescifrado = '';
-    for (var e = 0; e < mensaje.length; e++){
+    for(var e = 0; e < mensaje.length; e++){
         var y = mensaje.charCodeAt(e);
-        if (y >= 65 && y <= 90){
+        if(y >= 65 && y <= 90){
             var letraDescifrada = (y - 90 - parseInt(offset)) % 26 + 90;
             mensajeDescifrado += String.fromCharCode(letraDescifrada);
         }else if(y >= 97 && y <= 122){
