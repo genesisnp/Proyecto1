@@ -10,9 +10,9 @@ procesar.addEventListener('click', function(){
     } else if(offset <= 0) {
         alert('Por favor ingresar clave válida');
     }else if(accion == 1){
-        document.getElementById('salida').value = window.cipher.encode(mensaje, offset);
+        document.getElementById('mensaje').value = window.cipher.encode(mensaje, offset);
     }else if(accion == 2){
-        document.getElementById('salida').value = window.cipher.decode(mensaje, offset);
+        document.getElementById('mensaje').value = window.cipher.decode(mensaje, offset);
     }
 });  
 
