@@ -1,7 +1,5 @@
 #pantalla-inicio{
-    margin: auto;
-    width: 500px;  
-    border: solid; 
+    margin: auto; 
     text-align: center;
 }
 #root {
