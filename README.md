@@ -40,6 +40,7 @@ También entreviste a amigos (as).
   ![cifrado3](img/cifrado3.png)
 
 
-### Instalar Aplicación
+### Ingresar a la Aplicación
 
-* Entra a 
+* Entrar al link (https://genesisnp.github.io/lim-2018-05-bc-core-am-cipher/src/).
+* hacer click para guardar como favoritos.
