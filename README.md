@@ -26,16 +26,19 @@ También entreviste a amigos (as).
 
 **Interfaz del proyecto:**
 
-* Primero realize mi maqueta plasmando el diagrama de flujo del que seria mi proyecto.
+1. Realize mi maqueta plasmando el diagrama de flujo del que seria mi proyecto.
   - Escribir un mensaje o copiar el mensaje cifrado que envian desde mi whatsapp.
   - Elegir la acción que queremos realizar **cifrado** ó **descifrado**.
   - Ingresar una clave la cual permitira realizar el desplazamiento del mensaje.
-  - Que aparesca el mensaje con la acción que hemos seleccionado(cifrado1.png").
+  - Que aparesca el mensaje con la acción que hemos seleccionado.
+  ![cifrado1](cifrado1.png")
+
+2. Mejore mi maqueta ya que lo que se busca solo es leer y saber los mensajes que nos envian.
+  ![cifrado2](cifrado2.png)
+
+3. Se colocó estilos de acuerdo a lo que el cliente solicitó.
+  ![cifrado3](cifrado3.png)
+
 
 ### Instalar Aplicación
 
-* Ingresar
-
-`README.md`: debe explicar cómo descargar, instalar y ejecutar la aplicación
-  así como una introducción a la aplicación, su funcionalidad y decisiones de
-  diseño que tomaron 

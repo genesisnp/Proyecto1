@@ -1,4 +1,9 @@
+let iniciar = document. getElementById('pantalla-inicio');
+iniciar.addEventListener('click', function(){
+    proceso();
+},
 
+function proceso(){
 let procesar = document.getElementById('procesar');
 procesar.addEventListener('click', function(){
     let mensaje = document.getElementById('mensaje').value;
@@ -15,6 +20,7 @@ procesar.addEventListener('click', function(){
     }else if(accion == 2){
         document.getElementById('mensaje').value = window.cipher.decode(mensaje, offset);
     }
+});
 });  
 
  
