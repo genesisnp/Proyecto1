@@ -37,8 +37,9 @@ También entreviste a amigos (as).
   ![cifrado2](img/cifrado2.png)
 
 3. Se colocó estilos de acuerdo a lo que el cliente solicitó.
-  ![cifrado3](https://ibb.co/gKWuk8)
+  ![cifrado3](img/cifrado3.png)
 
 
 ### Instalar Aplicación
 
+* Entra a 

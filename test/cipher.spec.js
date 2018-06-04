@@ -47,5 +47,11 @@ describe('cipher', () => {
       assert.equal(typeof cipher.createCipherWithOffset(33).encode, 'function');
       assert.equal(typeof cipher.createCipherWithOffset(33).decode, 'function');
     });
+
+    it('debería ser una función', () => {
+      assert.equal(cipher.createCipherWithOffset(33).encode('genesis'), 'nlulzpz');
+      assert.equal(cipher.createCipherWithOffset(33).decode('nlulzpz'), 'genesis');
+    });
+    
   });
 });

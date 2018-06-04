@@ -1,8 +1,3 @@
-let iniciar = document. getElementById('pantalla-inicio');
-iniciar.addEventListener('click', function(){
-    proceso();
-},
-
 let procesar = document.getElementById('procesar');
 procesar.addEventListener('click', function(){
     let mensaje = document.getElementById('mensaje').value;
@@ -20,6 +15,6 @@ procesar.addEventListener('click', function(){
         document.getElementById('mensaje').value = window.cipher.decode(mensaje, offset);
     }
 });
-});  
+
 
  
