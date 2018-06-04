@@ -16,8 +16,6 @@ div {
     font-family: cooper, sans-serif;
     font-size: 30px;
     font-style: italic;
-    float: left;
-    box-sizing: border-box;
 }
 #offset{
     width: 50px;   
@@ -61,30 +59,3 @@ footer{
 	height: 5%;
     background-color: #afafafc9;
 }
-@media screen and (min-width: 780px) and (max-width: 1021px){
-    div{
-        background-color: #292727d8;
-        width: 100%;
-    }
-    textarea{
-        width: 100%
-    }
-}
-@media screen and (min-width: 480px) and (max-width: 780px){
-    div{
-        background-color: #292727d8;
-        width: 100%;
-    }
-    textarea{
-        width: 100%;
-    
-}
-@media screen and (min-width: 480px){
-    div{
-        background-color: #292727d8;
-        width: 100%;
-    }
-    textarea{
-        width: 100%;
-    }   
-}}

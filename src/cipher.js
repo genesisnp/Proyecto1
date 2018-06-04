@@ -12,6 +12,8 @@ window.cipher = {
             }else if(x >= 48 && x <=57){
                 letraCifrada = (x - 48 + parseInt(offset)) % 10 + 48;
                 mensajeCifrado += String.fromCharCode(letraCifrada);
+            }else {
+                mensajeCifrado += String.fromCharCode(x);
             }
         }
         return mensajeCifrado;
@@ -29,7 +31,9 @@ window.cipher = {
             }else if(y >= 48 && y <=57){
                 letraDescifrada = (y - 57 - parseInt(offset)) % 10 + 57;
                 mensajeDescifrado += String.fromCharCode(letraDescifrada);
-            }    
+            }else{
+                mensajeDescifrado += String.fromCharCode(y);
+            }   
         }
         return mensajeDescifrado;
     },
