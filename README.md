@@ -31,13 +31,13 @@ También entreviste a amigos (as).
   - Elegir la acción que queremos realizar **cifrado** ó **descifrado**.
   - Ingresar una clave la cual permitira realizar el desplazamiento del mensaje.
   - Que aparesca el mensaje con la acción que hemos seleccionado.
-  ![cifrado1](cifrado1.png")
+  ![cifrado1](img/cifrado1.png)
 
 2. Mejore mi maqueta ya que lo que se busca solo es leer y saber los mensajes que nos envian.
-  ![cifrado2](cifrado2.png)
+  ![cifrado2](img/cifrado2.png)
 
 3. Se colocó estilos de acuerdo a lo que el cliente solicitó.
-  ![cifrado3](cifrado3.png)
+  ![cifrado3](https://ibb.co/gKWuk8)
 
 
 ### Instalar Aplicación
